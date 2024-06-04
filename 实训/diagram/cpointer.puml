@@ -1,0 +1,23 @@
+@startmindmap mind
+<style>
+mindmapDiagram {
+  .green {
+    BackgroundColor lightgreen
+  }
+}
+</style>
+*[#OrangeRed] c pointer
+** callback函数 <<green>>
+** 2-dimension array pointer <<green>>
+** file <<green>>
+*** file操作
+*** encrypt decrypt
+** data structure <<green>>
+*** linear List 
+*** stack- 入栈,出栈
+*** queue- 入队出队
+*** tree -二叉树先序中序后序遍历
+*** diagram -
+*** sort algorithm-快速排序,冒泡排序 etc.
+** 观察者模式 <<green>>
+@endmindmap

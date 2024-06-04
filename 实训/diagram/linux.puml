@@ -1,0 +1,22 @@
+@startmindmap mind
+<style>
+mindmapDiagram {
+  .green {
+    BackgroundColor lightgreen
+  }
+}
+</style>
+*[#OrangeRed] linux
+** 改镜像源
+** install
+*** gdb调试 <<green>>
+*** gcc/g++ <<green>>
+*** mysql <<green>>
+*** git <<green>>
+**** git流程图
+*** vscode <<green>>
+*** vim <<green>>
+**** 常用指令wq,i,etc.
+** terminal常用命令touch ls cd etc.
+** makefile
+@endmindmap
