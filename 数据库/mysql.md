@@ -1,7 +1,22 @@
-存在量词命题的否定是全称量词命题
+### mysql安装
+yum install mysql
+yum install mysql-devel
+安装 mysql-server
+wget http://dev.mysql.com/get/mysql80-community-release-el7-5.noarch.rpm
+rpm -ivh mysql80-community-release-el7-5.noarch.rpm
+yum install mysql-community-server
+cat /var/log/mysqld.log | grep password
+
+sudo yum clean all
+yum update
+
 mysql -u root -p(cmd)
 mysql -h -P -u -p
 quit(退出)
+
+
+
+2. 执行 source sql文件
 ### SQL(结构化查询语言)关系数据库
 ###### 注释
 ![](2022-11-23-11-29-43.png)
@@ -147,6 +162,10 @@ select salary*12 from table_name;
     a) Grant 权限 on 数据库.表 to ‘用户名’@‘登录主机’ identified by ‘密码’
 8. ubuntu
 GRANT ALL PRIVILEGES ON database_name.* TO  'new_user'@'localhost';
+```sql
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'your_password';
+FLUSH PRIVILEGES;
+```
 #### 表操作
 1. 修改表结构
     a) 添加字段
